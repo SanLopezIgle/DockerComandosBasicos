@@ -53,11 +53,10 @@ exit
 ``` 
 El contenedor se detiene
 
-#### 7. Memoria ocupada en el disco duro:
+#### 7. Memoria ocupada en el disco duro y RAM ocupada por los contenedores:
 
-#### 8. RAM ocupada por los contenedores:
 ``` 
-docker stats 
+docker stats -a
 ```
 
 
