@@ -20,10 +20,13 @@ docker ps -a
 ``` 
 docker run -it --name dam_ubu1 ubuntu bash
 ``` 
-
+Para poder acceder a el en el caso de salir uso el comando:
+```
+docker exec -it dam_ubu1 bash
+```
 #### 4. Comprobar ip y ping a google.com:
 
- **IP obtenida:**172.17.0.2
+ **IP obtenida:** 172.17.0.2
 
 Todos estos comandos los uso dentro del contenedor, por eso antes pusimos **-it**, para así poder interactuar con la consola.
 ``` 
